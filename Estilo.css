@@ -1,13 +1,9 @@
-/* Estilo CSS para el tema "Tecnología y Ciberseguridad" */
-
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Fuentes */
 body {
     font-family: 'Courier New', monospace;
     background-color: #0a0a0a;
@@ -15,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background: linear-gradient(90deg, #1e3a8a, #059669);
     padding: 20px;
@@ -28,7 +23,6 @@ header h1 {
     color: #ffffff;
 }
 
-/* Navegación */
 nav {
     background-color: #1f2937;
     padding: 10px;
@@ -47,7 +41,6 @@ nav a:hover {
     color: #f59e0b;
 }
 
-/* Main content */
 main {
     padding: 20px;
     max-width: 1200px;
@@ -71,7 +64,6 @@ section p {
     margin-bottom: 10px;
 }
 
-/* Imágenes */
 img {
     max-width: 100%;
     height: auto;
@@ -79,7 +71,7 @@ img {
     margin: 10px 0;
 }
 
-/* Enlaces */
+
 a {
     color: #3b82f6;
     text-decoration: none;
@@ -89,7 +81,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Botones interactivos */
+
 button {
     background-color: #dc2626;
     color: white;
@@ -112,7 +104,6 @@ footer {
     color: #9ca3af;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2em;
